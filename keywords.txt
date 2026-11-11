@@ -1,0 +1,52 @@
+#######################################
+# Syntax Coloring Map For chipguy_ESP32-S3-Touch-AMOLED-2.06_board
+#######################################
+
+AMOLED206_Board	KEYWORD1
+ThreadsafeWire	KEYWORD1
+
+begin	KEYWORD2
+hasPmic	KEYWORD2
+hasTouch	KEYWORD2
+hasRtc	KEYWORD2
+hasImu	KEYWORD2
+hasCodec	KEYWORD2
+hasMicAdc	KEYWORD2
+bootButtonPressed	KEYWORD2
+pwrButtonPressed	KEYWORD2
+audioPower	KEYWORD2
+ampEnable	KEYWORD2
+panelPower	KEYWORD2
+motorPower	KEYWORD2
+vibrate	KEYWORD2
+pmicRead	KEYWORD2
+pmicWrite	KEYWORD2
+pmicUpdate	KEYWORD2
+probe	KEYWORD2
+readRegister	KEYWORD2
+writeRegister	KEYWORD2
+
+board	KEYWORD2
+
+AMOLED206_PWR_ACTIVE_LEVEL	LITERAL1
+AMOLED206_IMU	KEYWORD1
+readAccel	KEYWORD2
+readGyro	KEYWORD2
+readTemperature	KEYWORD2
+enableWakeOnMotion	KEYWORD2
+motionDetected	KEYWORD2
+AMOLED206_MOTION_ACTIVE_LEVEL	LITERAL1
+AMOLED206_OrientationWatch	KEYWORD1
+setWindow	KEYWORD2
+teach	KEYWORD2
+setDwell	KEYWORD2
+setPeriodMs	KEYWORD2
+save	KEYWORD2
+load	KEYWORD2
+taught	KEYWORD2
+arm	KEYWORD2
+disarm	KEYWORD2
+armed	KEYWORD2
+wokeByOrientation	KEYWORD2
+lastSample	KEYWORD2
+reclaimBus	KEYWORD2
